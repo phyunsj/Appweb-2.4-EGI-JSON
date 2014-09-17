@@ -189,7 +189,7 @@ response
 
 request 
 
->```{"ledColorOffBus":2,"ledNum":7,"ledColorYellowActiveState":1,"ledColorOffActiveState":1,"ledColorYellowLabel":"yellow label","loginName":"admin","ledColorYellowBit":24,"ledColorGreenActiveState":1,"ledColorRedActiveState":1,"ledColorGreenLabel":"off label","userSession":"P0XMdLyy3Zoi","ledColorOffLabel":"off label","ledColorGreenBus":2,"ledColorYellowBus":3,"ledColorRedLabel":"red label","ledColorRedBus":1,"ledColorRedBit":25,"ledColorGreenBit":23,"ledColorOffBit":23,"cmd":114,"ledDescription":"testing"}```
+>```{"ledColorOffBus":2,"ledNum":7,"ledColorYellowActiveState":1,"ledColorOffActiveState":1,"ledColorYellowLabel":"yellowlabel","loginName":"admin","ledColorYellowBit":24,"ledColorGreenActiveState":1,"ledColorRedActiveState":1,"ledColorGreenLabel":"off label","userSession":"P0XMdLyy3Zoi","ledColorOffLabel":"offlabel","ledColorGreenBus":2,"ledColorYellowBus":3,"ledColorRedLabel":"red label","ledColorRedBus":1,"ledColorRedBit":25,"ledColorGreenBit":23,"ledColorOffBit":23,"cmd":114,"ledDescription":"testing"}```
 
 response 
 
