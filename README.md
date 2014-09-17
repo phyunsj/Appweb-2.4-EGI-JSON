@@ -38,22 +38,22 @@ All users need to  log in prior to request other services. **userSession** will 
 
 #### JSON
 
-request 
+>request 
 
 ```{"cmd":101, "userPassword":"admin","loginName":"admin"}```
 
-response 
+>response 
 
 ```{"loginName":"admin","userSession":"HIhIrUPgWseJ", "userPrivilege": 4, returncode":301,"errormsg":"Success."}```
 
 ## Logout
 
 #### JSON
-request
+>request
 
  ```{"cmd":102,"userSession":"HIhIrUPgWseJ","loginName":"admin"}```
 
-response 
+>response 
 
 ```{"loginName":"admin","userSession":"empty","returncode":301,"errormsg":"Success."}```
 
@@ -152,11 +152,11 @@ ON/OFF Settings
 
   
 #### JSON 
-Request 
+>Request 
 
 ```{"plcRxCenterFrequency":240,"plcTxLogicBusLength":8,"plcCheckback6Response":0,"plcRxHardCarrierLowPower":0,"plcCheckback1Response":0,"plcRxAgcSetpoint":7,"plcCheckback5Response":0,"plcLowSignalLevelAlarm":10,"plcTrip1ShiftDirection":0,"plcModuleEnable":1,"plcCheckback2Level":0,"plcCheckback7Level":0,"plcRxLogicBusLength":10,"plcCheckback4Level":0,"plcTxEnable":1,"plcCheckbackResponseTimeout":0,"plcCheckback4Command":0,"plcSystemMode":2,"plcPretripTimer":9,"plcLocalTxCausesBlock":1,"loginName":"admin","plcRemoteInitCode":0,"plcCheckbackStartTimeMinute":4,"plcStop2InputPolarity":0,"plcCheckback2Command":0,"plcSNRAlarmThreshold":2,"plcCheckback4Response":0,"plcTxCenterFrequency":240,"plcFskTxTripLevel":1,"plcTxHardCarrierCode4":0,"plcCheckback8Level":0,"userSession":"P13tFH8W1R24","plcCheckback6Command":0,"plcCheckback2Response":0,"plcStart12AndOr":1,"plcFskTxGuardLevel":2,"plcSlotNum":4,"plcCheckback8Command":0,"plcStop12AndOr":1,"plcRxHardCarrierHighPower":0,"plcRpmAlarmThreshold":20,"plcCheckback5Level":0,"plcTxHardCarrierCode1":0,"plcCheckback7Command":0,"plcCheckback7Response":0,"plcCheckback5Command":0,"plcBlockHoldTimer":3,"plcRxBandwidth":1,"plcCheckback1Level":0,"plcCheckbackStartTimeHour":5,"plcTxHardCarrierCode2":0,"plcCheckback3Command":0,"plcCheckbackHoursBetween":2,"plcTxHardCarrierCode3":0,"plcStart1InputPolarity":0,"plcStop1InputPolarity":0,"plcHardCarrierTimer":0,"plcMinRxLevel":11,"plcTxShift":100,"plcCheckback1Command":0,"plcStart2InputPolarity":0,"plcCheckbackMode":2,"plcRxThreshold":25,"plcRxLogicBusStartBit":6,"cmd":107,"plcCheckback6Level":0,"plcCheckback8Response":0,"plcCheckback3Response":0,"plcCheckback3Level":0,"dummpy":0,"plcDiscriminatorEnergyThreshold":4,"plcRxEnable":1,"plcTxLogicBusStartBit":5}```
 
-Response 
+>Response 
 
 ```{"loginName":"admin","userSession":"3ieaGumNK2JG","returncode":301,"errormsg":"Success."}```
 
@@ -164,22 +164,22 @@ Response
 
 #### JSON
 
-request
+>request
 
  ```{"loginName":"admin", "plcStatusSlotNum":4, "cmd":106, "userSession":"FYfcsIlQCPtq" }```
 
-response
+>response
 
 ```{"loginName":"admin","userSession":"kAxGuQRamA4c","returncode":301,"errormsg":"Success.","plcStatusSlotNum":4,"plcStatusSystemMode":2,"plcStatusTxPower":123,"plcStatusRxLevel":18,"plcStatusTxFailAlarm":1,"plcStatusRxCarrierAlarm":0,"plcStatusTxState":64,"plcStatusRxState":16,"plcStatusSNR":34,"plcStatusSNRAlarm":0,"plcStatusReflectedPower":111,"plcStatusReflectedPowerAlarm":0,"plcStatusTransHybridLoss":89,"plcStatusCheckbackMode":0,"plcStatusCheckbackStatus":0,"plcStatusRearBoardID":0,"plcStatusPLCSoftwareVersion":12,"plcStatusActelVersionMajor":13,"plcStatusPICVersion":14,"plcStatusActelVersionMinor":15,"plcStatusHMIInterfaceVersion":14,"plcStatusTripKey1":0,"plcStatusTripKey2":0,"plcStatusTrip1Rx":0,"plcStatusTrip2Rx":0,"plcStatusRxAlarm":0,"plcStatusRPMAlarm":0,"plcStatusCheckbackTestsCount":0,"plcStatusCheckbackPassCount":0,"plcStatusCheckbackFailCount":0}```
 
 ## PLC Command/Diagnosis
 
 #### JSON
-request 
+>request 
 
 ```{"plcCmndSendCheckbackCode":0,"plcCmndForceCarrier":0,"plcCmndSendHardCarrierRequest":0,"plcCmndLogicBusOutput":1,"plcCmndSlotNum":4,"plcCmndCalibrateRPM":0,"loginName":"admin","cmd":108,"userSession":"2leFsA0X50hJ","plcCmndCalibrateTxLevel":0,"plcCmndRecommission":0,"plcCmndResetAllCounters":0,"dummpy":0,"plcCmndStartCheckback":0}```
 
-response 
+>response 
 
 ```{"loginName":"admin","userSession":"cWP5ymoznoT6","returncode":301,"errormsg":"Success."}```
 
@@ -187,11 +187,11 @@ response
 
 ####JSON
 
-request 
+>request 
 
 ```{"ledColorOffBus":2,"ledNum":7,"ledColorYellowActiveState":1,"ledColorOffActiveState":1,"ledColorYellowLabel":"yellow label","loginName":"admin","ledColorYellowBit":24,"ledColorGreenActiveState":1,"ledColorRedActiveState":1,"ledColorGreenLabel":"off label","userSession":"P0XMdLyy3Zoi","ledColorOffLabel":"off label","ledColorGreenBus":2,"ledColorYellowBus":3,"ledColorRedLabel":"red label","ledColorRedBus":1,"ledColorRedBit":25,"ledColorGreenBit":23,"ledColorOffBit":23,"cmd":114,"ledDescription":"testing"}```
 
-response 
+>response 
 
 ```{"loginName":"admin","userSession":"Wku2S1qGpf2M","returncode":301,"errormsg":"Success."}```
 
@@ -199,11 +199,11 @@ response
 
 ####JSON
 
-request 
+>request 
 
 ```{"cmd":115,"loginName":"admin","userSession":"5wGS3UQkJ0Wc"}```
 
-response 
+>response 
 
 ```{"loginName":"admin","userSession":"iaXEhER5XBpM","returncode":301,"errormsg":"Success.","led":"0:2:2:1:3:1:1:0:3:3:0:3:0:1:1:1:2:2:0:2:"}```
 
