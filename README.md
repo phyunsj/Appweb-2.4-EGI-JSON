@@ -168,7 +168,8 @@ request
 
  ```{"loginName":"admin", "plcStatusSlotNum":4, "cmd":106, "userSession":"FYfcsIlQCPtq" }```
 
-response 
+response
+
 ```{"loginName":"admin","userSession":"kAxGuQRamA4c","returncode":301,"errormsg":"Success.","plcStatusSlotNum":4,"plcStatusSystemMode":2,"plcStatusTxPower":123,"plcStatusRxLevel":18,"plcStatusTxFailAlarm":1,"plcStatusRxCarrierAlarm":0,"plcStatusTxState":64,"plcStatusRxState":16,"plcStatusSNR":34,"plcStatusSNRAlarm":0,"plcStatusReflectedPower":111,"plcStatusReflectedPowerAlarm":0,"plcStatusTransHybridLoss":89,"plcStatusCheckbackMode":0,"plcStatusCheckbackStatus":0,"plcStatusRearBoardID":0,"plcStatusPLCSoftwareVersion":12,"plcStatusActelVersionMajor":13,"plcStatusPICVersion":14,"plcStatusActelVersionMinor":15,"plcStatusHMIInterfaceVersion":14,"plcStatusTripKey1":0,"plcStatusTripKey2":0,"plcStatusTrip1Rx":0,"plcStatusTrip2Rx":0,"plcStatusRxAlarm":0,"plcStatusRPMAlarm":0,"plcStatusCheckbackTestsCount":0,"plcStatusCheckbackPassCount":0,"plcStatusCheckbackFailCount":0}```
 
 ## PLC Command/Diagnosis
