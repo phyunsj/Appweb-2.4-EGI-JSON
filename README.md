@@ -38,13 +38,13 @@ All users need to  log in prior to request other services. **userSession** will 
 
 #### JSON
 
->request 
+request 
 
-```{"cmd":101, "userPassword":"admin","loginName":"admin"}```
+>```{"cmd":101, "userPassword":"admin","loginName":"admin"}```
 
->response 
+response 
 
-```{"loginName":"admin","userSession":"HIhIrUPgWseJ", "userPrivilege": 4, returncode":301,"errormsg":"Success."}```
+>```{"loginName":"admin","userSession":"HIhIrUPgWseJ", "userPrivilege": 4, returncode":301,"errormsg":"Success."}```
 
 ## Logout
 
