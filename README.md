@@ -59,7 +59,7 @@ response
 
 ## PLC Configuration
 
-All parameters (additional parameters are *cmd*, *userSession* and *loginName* ) are sent regardless of **plcSystemMode** but ***General Settings +  FSK Settings*** will be shown if plcSystemMode is 2F/3F. (For ON/OFF, ***GeneralSettings + ON/OFF Settings***)
+All parameters (additional parameters are *cmd*, *userSession* and *loginName* ) are sent regardless of **plcSystemMode** but ***General Settings +  FSK Settings*** will be shown if plcSystemMode is 2F/3F. (For ON/OFF, ***General Settings + ON/OFF Settings***)
 
 General Settings
 
@@ -144,11 +144,11 @@ ON/OFF Settings
 
 ```plcSystemMode``` indicates PLC mode. (FSK - 2F/3F or ON/OFF)
 
-```plcTxCenterFrequency``` ```plcRxCenterFrequency```  
+```plcTxCenterFrequency``` ```plcRxCenterFrequency``` converted from a float to an integer. 
 
-```plcCheckbackMode``` 
+```plcCheckbackMode``` enable/disable plcCheckback[1..8]Command and plcCheckback[1..8]Response settings
 
-```plcCheckback[1..8]Command``` ```plcCheckback[1..8]Response```
+```plcCheckback[1..8]Command``` ```plcCheckback[1..8]Response``` must have an unique value from 1 to 16 if not 0.
 
   
 #### JSON 
