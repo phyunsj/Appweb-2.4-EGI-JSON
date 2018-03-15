@@ -1,5 +1,5 @@
 
-# Appweb 2 EGI+JSON.
+# Appweb 2 EGI+JSONCPP
 
 Integrate JSON Parser to process POST data (JSON Format) using EGI handler. 
 Appweb 2/3 supports EGI handler.Appweb was written in C++.
