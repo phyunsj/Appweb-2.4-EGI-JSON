@@ -1,5 +1,5 @@
 
-#Appweb 2 EGI+JSON.
+##Appweb 2 EGI+JSON.
 
 Integrate JSON Parser to process POST data (JSON Format) using EGI handler. 
 Appweb 2/3 supports EGI handler.Appweb was written in C++.
@@ -14,21 +14,22 @@ Appweb 2/3 supports EGI handler.Appweb was written in C++.
 
 ## Quick Start
 
+```
+ $ cd ${PROJECT_ROOT_DIR}/lib/jsoncpp
+ $ make
+ $ cd ${PROJECT_ROOT_DIR}/egiForm
+ $ make 
+ $ cd ${PROJECT_ROOT_DIR}/appweb-2.4.4 
+ $ ./configure ...options...
+ $ make
+ $ cd samples/```C++```/EgiSample (Modified version of samples/```C++```/simpleEgi)
+ $ make
+ $ export **$LD_LIBRARY_PATH**=... 
+ (Perhaps you want to put *.so in one place.)
+ $ ./simpleEgi
 
-> $ cd ${PROJECT_ROOT_DIR}/lib/jsoncpp
-> $ make
-> $ cd ${PROJECT_ROOT_DIR}/egiForm
-> $ make 
-> $ cd ${PROJECT_ROOT_DIR}/appweb-2.4.4 
-> $ ./configure ...options...
-> $ make
-> $ cd samples/```C++```/EgiSample (Modified version of samples/```C++```/simpleEgi)
-> $ make
-> $ export **$LD_LIBRARY_PATH**=... 
-> (Perhaps you want to put *.so in one place.)
-> $ ./simpleEgi
-
-> $ ./unittest_egi.py  -t **IP-ADDR** 
+ $ ./unittest_egi.py  -t **IP-ADDR** 
+```
 
 ```
 $ ./unittest-egi.py  -t 127.0.0.1
