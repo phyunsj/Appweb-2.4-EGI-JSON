@@ -45,10 +45,10 @@ OK
 
 ## EGI Handler/Form 
 
-**EGI** = **E**mbedded **G**ateway **I**nterface. **Fast** in-process replacement for **CGI**.
+`EGI` = **E**mbedded **G**ateway **I**nterface. **Fast** in-process replacement for `CGI`.
 
 
-**EgiForm Registration** after **setupServer()** before **http->start()** in **realMain():appweb.cpp**
+`EgiForm Registration` after `setupServer()` before `http->start()` in `realMain():appweb.cpp`
 
 
 ```
@@ -84,10 +84,11 @@ rq->writeFmt("%s", postResponse.c_str());
 Configure IoT over HTTP(s). Session Management & User Authentication are required.
 
 ##### Other Options : 
+
 - GoAhead Webserver (GoAction)
 - XML-RPC
 
-##### appweb 2.4.4 configuration options
+##### appweb 2.4.4 configuration options for this build
 
 ```
 ./configure  --type=RELEASE \
