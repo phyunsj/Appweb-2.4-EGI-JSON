@@ -18,9 +18,9 @@ Appweb 2.x/3.x supports EGI handler. Appweb 2.x was written in C++. Appweb 3+ ( 
  $ cd ${PROJECT_ROOT_DIR}/egiForm
  $ make 
  $ cd ${PROJECT_ROOT_DIR}/appweb-2.4.4 
- $ ./configure ...options...
+ $ ./configure ...your options... // Specify your options
  $ make
- $ cd samples/```C++```/EgiSample (Modified version of samples/```C++```/simpleEgi)
+ $ cd samples/C++/EgiSample (Modified version of samples/C++/simpleEgi)
  $ make
  $ export **$LD_LIBRARY_PATH**=... 
  (Perhaps you want to put *.so in one place.)
